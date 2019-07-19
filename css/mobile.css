@@ -1,0 +1,108 @@
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul,
+#navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+}
+
+/* Showcase */
+#showcase {
+  height: 100%;
+}
+
+#showcase .showcase-content {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+/* Home Info */
+#home-info {
+  height: 550px;
+}
+
+#home-info .info-img {
+  display: none;
+  height: 550px;
+}
+
+#home-info .info-img1 {
+  float: left;
+  height: 550px;
+}
+
+#home-info .info-img2 {
+  float: right;
+  height: 550px;
+}
+
+#home-info .info-img3 {
+  float: left;
+  height: 550px;
+}
+
+#home-info .info-content {
+  float: none;
+  width: 100%;
+}
+
+#home-info .info-content1 {
+  float: right;
+  width: 50%;
+}
+
+#home-info .info-content3 {
+  float: right;
+  width: 50%;
+}
+
+#home-info .info-content2 {
+  float: left;
+  width: 50%;
+}
+
+/* Features */
+.img-container {
+  float: left;
+  width: 50%;
+  padding: 10px 0;
+  background: #444;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+/* boxes */
+.box {
+  width: 100%;
+}
+
+/* About */
+#about-info .info-right,
+#about-info .info-left {
+  float: none;
+  width: 100%;
+}
+
+#about-info .info-right {
+  margin-top: 30px;
+}
+
+.l-heading {
+  text-align: center;
+}
+
+/* Contact */
+#contact-info .box {
+  border-bottom: #444 dotted 1px;
+}
